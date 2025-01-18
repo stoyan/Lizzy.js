@@ -2,6 +2,10 @@
 
 Lizzy.js is a zero-dependency, no-build, client-side rendering framework for listing and rendering markdown content, e.g. a blog. It's named after a dog: an opinionated feisty matted specimen, generously described as a _terrier mix_ and often asked questions including but not limitted to the old favorite "who's a good girl?"
 
+## Demo
+
+See https://www.highperformancewebfonts.com/ - the stuff under *Reads* is powered by Lizzy.js as are the articles when you click on them.
+
 ## How it works
 
 ### Stage 1: Listing articles 
@@ -18,30 +22,29 @@ Output:
 
 ### Stage 2: Rendering an article
 
-When the user clicks an article, Lizzy fetches the markdown file, converts it to HTML and displays it. It also puts the aricle date on top, derived from the `Last-Modified` HTTP header. It also updates the URL of the article for bookmarking purposes.
+When the user clicks an article, Lizzy fetches (ah, cheeky little pup!) the markdown file, converts it to HTML and displays it. It also puts the aricle date on top, derived from the `Last-Modified` HTTP header. It also updates the URL of the article for bookmarking purposes.
 
 Example:
 
 ![Article](./images-for-the-readme/art.png)
 
 
-## Demo
-
-See https://www.highperformancewebfonts.com/ - the stuff under *Reads* is powered by Lizzy.js as are the articles when you click on them.
-
-
 ## Features of the Lizzy.js framework
 
-* Quick and dirty (like its namesake. Well, the namesake is getting old so not as quick anymore, but at least of the two qualifiers is true).
-* Tiny (like the namesake). It's, like, 100 lines of code (prettified) plus 70-ish more for the markdown-to-html transform.
+* Quick and dirty (just like its namesake. Well, the namesake is getting old so not as quick anymore, but at least of the two is true).
+* Tiny (just like the namesake). It's, like, 100 lines of code (prettified) plus 70-ish more for the markdown-to-html transform.
+* Probably has a bug or two (just like the namesake after spending time with other dogs)
 * No build process. To publish a new article, just drop another `.md` file. That's it.
-* Supports drafts. Prefix your filename.md with a `_` and it won't be in the listing, but it will be rendered if you hit the URL directly, so you can preview your MD-foo.
+* Supports drafts. Prefix your filename.md with a `_` and it won't be in the listing, but it will be rendered if you hit the URL directly, so you can preview your MD-foo on the live server, as it should be.
 * 0 dependencies
 * Trivial to instal. Copy-paste at the bottom of any HTML file.
 * A breeze to configure. 3 options: where are the articles, where to render them in the given HTML, and how do you want your article URLs (permalinks) to look like.
 * Additional customizability via article-related config/API
-* The **Back** button works (don't you wish more client-side rendered apps do this? Is it too much to ask?)
+* The **Back** button works (don't you wish more client-side rendered apps do this? Is it too much to ask? Is it?)
 * Automatically shows the dates of articles
+* AI-powered (I asked chatgpt a few things during development)
+* TypeScript-free (no build, remember?)
+* SEO-free (all client-side rendered, so SEO is out the window but who cares)
 
 ## Installation
 
