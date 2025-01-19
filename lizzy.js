@@ -99,19 +99,19 @@
     const INLINE = 'inline';
     // prettier-ignore
     const parseMap = [
-        {pattern: /([^!])\[([^\[]+)\]\(([^\)]+)\)/g, replace: "$1<a href=\"$3\">$2</a>", type: INLINE},
-        {pattern: /!\[([^\[]+)\]\(([^\)]+)\)/g, replace: "<img src=\"$2\" alt=\"$1\" />", type: INLINE},
-        {pattern: /(#{1,6})([^\n]+)/g, replace: "<h$L1>$2</h$L1>", type: BLOCK},
-        {pattern: /\n(?!<\/?\w+>|\s?\*|\s?[0-9]+|>|\&gt;|-{5,})([^\n]+)/g, replace: "<p>$1</p>", type: BLOCK},
-        {pattern: /\n(?:&gt;|\>)\W*(.*)/g, replace: "<blockquote><p>$1</p></blockquote>", type: BLOCK},
-        {pattern: /\n\s?\*\s*(.*)/g, replace: "<ul>\n\t<li>$1</li>\n</ul>", type: BLOCK},
-        {pattern: /\n\s?[0-9]+\.\s*(.*)/g, replace: "<ol>\n\t<li>$1</li>\n</ol>", type: BLOCK},
-        {pattern: /(\*\*|__)(.*?)\1/g, replace: "<strong>$2</strong>", type: INLINE},
-        {pattern: /(\*|_)(.*?)\1/g, replace: "<em>$2</em>", type: INLINE},
-        {pattern: /\~\~(.*?)\~\~/g, replace: "<del>$1</del>", type: INLINE},
-        {pattern: /`(.*?)`/g, replace: "<code>$1</code>", type: INLINE},
-        {pattern: /\n-{5,}\n/g, replace: "<hr />", type: BLOCK},
-      ];
+      {pattern: /([^!])\[([^\[]+)\]\(([^\)]+)\)/g, replace: "$1<a href=\"$3\">$2</a>", type: INLINE},
+      {pattern: /!\[([^\[]+)\]\(([^\)]+)\)/g, replace: "<img src=\"$2\" alt=\"$1\" />", type: INLINE},
+      {pattern: /(#{1,6})([^\n]+)/g, replace: "<h$L1>$2</h$L1>", type: BLOCK},
+      {pattern: /\n(?!<\/?\w+>|\s?\*|\s?[0-9]+|>|\&gt;|-{5,})([^\n]+)/g, replace: "<p>$1</p>", type: BLOCK},
+      {pattern: /\n(?:&gt;|\>)\W*(.*)/g, replace: "<blockquote><p>$1</p></blockquote>", type: BLOCK},
+      {pattern: /\n\s?\*\s*(.*)/g, replace: "<ul>\n\t<li>$1</li>\n</ul>", type: BLOCK},
+      {pattern: /\n\s?[0-9]+\.\s*(.*)/g, replace: "<ol>\n\t<li>$1</li>\n</ol>", type: BLOCK},
+      {pattern: /(\*\*|__)(.*?)\1/g, replace: "<strong>$2</strong>", type: INLINE},
+      {pattern: /(\*|_)(.*?)\1/g, replace: "<em>$2</em>", type: INLINE},
+      {pattern: /\~\~(.*?)\~\~/g, replace: "<del>$1</del>", type: INLINE},
+      {pattern: /`(.*?)`/g, replace: "<code>$1</code>", type: INLINE},
+      {pattern: /\n-{5,}\n/g, replace: "<hr />", type: BLOCK},
+    ];
 
     const clean = (string) => {
       const cleaningRuleArray = [
