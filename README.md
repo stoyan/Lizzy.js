@@ -2,6 +2,8 @@
 
 Lizzy.js is a zero-dependency, no-build, copy-paste, client-side rendering framework for listing and rendering markdown content. E.g. a blog. It's named after a dog: an opinionated feisty matted specimen, generously described as a _terrier mix_ and often being interrogated with questions including but not limitted to "who's a good girl?" and "where's the ball?"
 
+![Lizzy](./images-for-the-readme/lizzy.png)
+
 ## Demo
 
 See [https://www.highperformancewebfonts.com/](https://www.highperformancewebfonts.com/) - the stuff under **Reads** is powered by Lizzy.js as are the articles when you click on them.
