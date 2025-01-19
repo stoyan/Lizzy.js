@@ -1,6 +1,6 @@
 # 🐶 Lizzy.js 
 
-Lizzy.js is a zero-dependency, no-build, client-side rendering framework for listing and rendering markdown content, e.g. a blog. It's named after a dog: an opinionated feisty matted specimen, generously described as a _terrier mix_ and often asked questions including but not limitted to the old favorite "who's a good girl?"
+Lizzy.js is a zero-dependency, no-build, copy-paste, client-side rendering framework for listing and rendering markdown content. E.g. a blog. It's named after a dog: an opinionated feisty matted specimen, generously described as a _terrier mix_ and often being interrogated with questions including but not limitted to "who's a good girl?" and "where's the ball?"
 
 ## Demo
 
@@ -45,6 +45,7 @@ Example:
 * AI-powered (I asked chatgpt a few things during development)
 * TypeScript-free (no build, remember?)
 * SEO-free (all client-side rendered, so SEO is out the window but who cares)
+* `package.json`-free. Just like the namesake, anything touched by a mailman is suspect
 
 ## Installation
 
