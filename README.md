@@ -11,6 +11,8 @@ Lizzy.js is a zero-dependency, no-build, copy-paste, client-side rendering frame
 
 See [https://www.highperformancewebfonts.com/](https://www.highperformancewebfonts.com/) - the stuff under **Reads** is powered by Lizzy.js as are the articles when you click on them.
 
+The Markdown sources are in [https://www.highperformancewebfonts.com/posts/](https://www.highperformancewebfonts.com/posts/).
+
 ## How it works
 
 ### Stage 1: Listing articles 
