@@ -54,7 +54,7 @@ Example:
 
 ## Installation
 
-Copy the contents of lizzy.js and paste it into an HTML of your liking: a `<script>` tag in an `index.html` most likely
+Copy the contents of [`lizzy.js`](lizzy.js) and paste it into an HTML of your liking: a `<script>` tag in an `index.html` most likely
 
 ## Configuration
 
