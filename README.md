@@ -4,6 +4,9 @@ Lizzy.js is a zero-dependency, no-build, copy-paste, client-side rendering frame
 
 ![Lizzy](./images-for-the-readme/lizzy.png)
 
+*Zero interest in balls, btw*
+
+
 ## Demo
 
 See [https://www.highperformancewebfonts.com/](https://www.highperformancewebfonts.com/) - the stuff under **Reads** is powered by Lizzy.js as are the articles when you click on them.
