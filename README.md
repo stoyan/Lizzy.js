@@ -72,7 +72,7 @@ window.__lizzyconf = {
 When you configure Lizzy.js as above (and your domain is `example.org`) it means that you keep your MD files in `example.org/posts`. When the user clicks a link to, say, `hello-lizzy.md` the URL of the rendered article becomes `https://example.org/read/hello-lizzy`
 
 
-For the additional configuration/API, see the `examples/config.js` folder in this repo.
+For the additional configuration/API, see the [`examples/config.js`](./examples/config.js) folder in this repo.
 
 ## Optional Apache thing
 
