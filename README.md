@@ -36,7 +36,7 @@ Example:
 
 ## Features of the Lizzy.js framework
 
-* Quick and dirty (just like its namesake. Well, the namesake is getting old so not as quick anymore, but at least of the two is true).
+* Quick and dirty (just like its namesake. Well, the namesake is getting old so not as quick anymore, but at least one of the two is true).
 * Tiny (just like the namesake). It's, like, 100 lines of code (prettified) plus 70-ish more for the markdown-to-html transform.
 * Probably has a bug or two (just like the namesake after spending time with other dogs)
 * No build process. To publish a new article, just drop another `.md` file. That's it.
