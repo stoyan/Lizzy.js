@@ -5,7 +5,7 @@
   // read content goes here, if no conf.content given
   conf.root.innerHTML = '<div>Loading...</div>';
 
-  buildIndex = async function buildIndex() {
+  const buildIndex = async function buildIndex() {
     const respo = await fetch(conf.index);
     const text = await respo.text();
     conf.root.innerHTML = '<div></div>';
