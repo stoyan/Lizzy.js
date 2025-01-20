@@ -1,6 +1,6 @@
 # 🐶 Lizzy.js 
 
-Lizzy.js is a zero-dependency, no-build, copy-paste, client-side rendering framework for listing and rendering markdown content. E.g. a blog. It's named after a dog: an opinionated feisty matted specimen, generously described as a _terrier mix_ and often being interrogated with questions including but not limitted to "who's a good girl?" and "where's the ball?"
+Lizzy.js ([github](https://github.com/stoyan/Lizzy.js/)) is a zero-dependency, no-build, copy-paste, open-source, client-side rendering framework for listing and rendering markdown content. E.g. a blog. It's named after a dog: an opinionated feisty matted specimen, generously described as a _terrier mix_ and often being interrogated with questions including but not limitted to "who's a good girl?" and "where's the ball?"
 
 ![Lizzy](./images-for-the-readme/lizzy.png)
 
